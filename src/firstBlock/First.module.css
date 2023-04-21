@@ -1,0 +1,80 @@
+.root{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    
+}
+
+.imageWrapper{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border-radius: 1em;
+    margin-inline: auto;
+    transform: translateY(-60px);
+    z-index: 0;
+}
+.imageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shoesWrapper{
+    width: 30em;
+    height: 30em;
+    transform: translateY(-360px);
+    margin-inline: auto;
+}
+.shoesWrapper img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.titleWrap{
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    top: 20%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+}
+.titleWrap h1{
+    font-size: 46px;
+    letter-spacing: .12em;
+    color: rgba(255, 255, 255, 0.937);
+}
+.titleWrap h5{
+    font-size: 16px;
+    width: 400px;
+    color: rgba(255, 255, 255, 0.741);
+    margin: 15px auto 25px auto;
+}
+.titleWrap button{
+    outline: none;
+    border: 1px solid;
+    padding: 12px 26px;
+    border-radius: .5em;
+    margin-inline: 15px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.768);
+    font-weight: bold;
+    z-index: 2;
+
+    transition: ease-in-out .3s;
+}
+.titleWrap button:not(:last-child){
+    color: #212121;
+    background-color: rgb(202 48 61);
+    border: 1px solid #232323;
+}
+.titleWrap button:not(:last-child):hover{
+    color: rgba(255, 255, 255, 0.768);
+    border: 1px solid rgba(255, 255, 255, 0.768);
+}
+.titleWrap button:hover{
+    color: #212121;
+    background-color: rgb(202 48 61);
+    border: 1px solid #232323;
+}

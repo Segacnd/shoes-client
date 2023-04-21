@@ -1,0 +1,16 @@
+.wishList{
+    width: 400px;
+    background-color: linen;
+    text-align: center;
+    padding: 10px 50px;
+    min-height: 760px;
+    overflow: auto;
+}
+
+.wishItemWrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}

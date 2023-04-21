@@ -1,0 +1,108 @@
+.wrapper{
+    width: 100%;
+    min-height: 80vh;
+    margin-inline: auto;
+    padding: 80px;
+}
+.card{
+    width: 1200px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 2em;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-around;
+    margin-inline: auto;
+    position: relative;
+}
+.imgWrapper{
+    width: 500px;
+    height: 500px;
+}
+.imgWrapper img {
+    width: 100%;
+    height: 100%;
+    transform: rotate(20deg);
+}
+
+.infoCard{
+    width: 450px;
+    
+    max-height: 600px;
+    background-color: #232323;
+    border-radius: 2em;
+
+    padding: 25px;
+    color: rgba(255, 255, 255, 0.778);
+    box-shadow: rgba(100, 100, 111, 0.37) 0px 7px 29px 0px;
+}
+.infoCard h2 {
+ text-align: center;
+ font-size: 24px;
+}
+.sizeWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.sizes{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.size{
+    background-color: rgba(255, 255, 255, 0.799);
+    border-radius: .5em;
+    width: 45px;
+    padding: 5px;
+    font-weight: bolder;
+    height: 45px;
+    font-size: 20px;
+    color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cardFooter{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+
+    align-items: center;
+}
+.cardFooter span{
+    font-weight: bold;
+    font-size: 24px;
+    margin-inline: auto;
+}
+.button{
+    outline: none;
+    border: 1px solid;
+    padding: 12px 26px;
+    border-radius: .5em;
+    margin-inline: 15px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.768);
+    font-weight: bold;
+    z-index: 2;
+    transition: ease-in-out .2s;
+}
+.button:hover{
+    color: #212121;
+    background-color: rgb(202 48 61);
+    border: 1px solid #232323;
+}
+
+.brand_name{
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 34px;
+}
+.active{
+    border: 2px solid rgb(202 48 61);
+    color: rgb(202 48 61);
+}

@@ -1,0 +1,42 @@
+.root{
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    position: relative;
+}
+.imgWrapp{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.83);
+    border-radius: 1em;
+    padding: 5px 10px;
+
+}
+.imgWrapp img{
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out 1s;
+}
+
+.imgWrapp:hover img{
+    transform: scale(120%) rotate(15deg);
+    transition: ease-in-out .5s;
+}
+.cardBlockText{
+    padding-top: 10px;
+    width: 100%;
+    padding-inline: 5px;
+}
+.name{
+    font-weight: bold;
+    text-align: center;
+    margin-block: 7px;
+}
+.brandName{
+
+}
+.price{
+    font-weight: bolder;
+    margin-left: 120px;
+
+}

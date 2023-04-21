@@ -1,0 +1,91 @@
+.clear {
+  min-height: 81.5vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.title {
+  text-align: center;
+}
+
+.svg {
+  display: block;
+  margin-inline: auto;
+  animation: 2s cart infinite;
+  margin-block: 25px;
+}
+
+@keyframes cart {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+.goBack {
+  outline: none;
+  border: 1px solid;
+  padding: 12px 26px;
+  border-radius: 0.5em;
+  margin-inline: 15px;
+  background-color: transparent;
+  color: #232323;
+  font-weight: bold;
+  z-index: 2;
+  transition: ease-in-out 0.2s;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.goBack:hover {
+  color: #212121;
+  background-color: rgb(202 48 61);
+  border: 1px solid #232323;
+}
+
+.fallenPurchase {
+  position: absolute;
+  top: 100px;
+  right: 10%;
+  animation: 4s fall infinite;
+  animation-delay: 0.5s;
+}
+.fallenPurchase2 {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    animation: 3s fall infinite;
+    animation-delay: 1s;
+  }
+.fallenPurchase3 {
+    position: absolute;
+    top: 500px;
+    left: 20%;
+    animation: 8s fall infinite;
+    animation-delay: 0s;
+  }
+  .fallenPurchase4 {
+    position: absolute;
+    top: 425px;
+    right: 20%;
+    animation: 4s fall infinite;
+    animation-delay: 0.5s;
+  }
+@keyframes fall {
+  0% {
+    
+    transform: rotate(-25deg);
+  }
+  50% {
+    
+    transform: rotate(40deg);
+  }
+
+  100% {
+    
+    transform: rotate(-25deg);
+  }
+}
